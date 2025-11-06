@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "TCAInitializableReducer",
     platforms: [
-        .iOS(.v15)
+		.iOS(.v15), .macOS(.v10_15)
     ],
     products: [
         .singleTargetLibrary("TCAInitializableReducer")
